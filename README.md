@@ -1,4 +1,3 @@
-# DSKT-DDEA
 # Island-Based Evolutionary Computation with Diverse Surrogates and Adaptive Knowledge Transfer for High-Dimensional Data-Driven Optimization
 
 This repository contains the implementation of the paper:  Xian-Rong Zhang, Yue-Jiao Gong, Zhiguang Cao, and Jun Zhang. 2024. Island-Based Evolutionary Computation
@@ -41,6 +40,5 @@ If you use this code in your research, please cite the following paper:
   pages={ZZZ-ZZZ}
 }
 ```
-
 
 
