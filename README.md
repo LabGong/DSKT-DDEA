@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the paper:  Xian-Rong Zhang, Yue-Jiao Gong, Zhiguang Cao, and Jun Zhang. 2024. Island-Based Evolutionary Computation
 with Diverse Surrogates and Adaptive Knowledge Transfer for High-Dimensional Data-Driven Optimization.
-ACM Transactions on Evolutionary Learning and Optimization. 37, 4, Article 111 (August 2024), 31 page.
+ACM Transactions on Evolutionary Learning and Optimization.
 
 ## Running the Code
 
@@ -30,14 +30,19 @@ self.nd = 600
 
 If you use this code in your research, please cite the following paper:
 ```
-@article{your_paper,
-  title={Island-Based Evolutionary Computation with Diverse Surrogates and Adaptive Knowledge Transfer for High-Dimensional Data-Driven Optimization},
-  author={Xian-Rong Zhang, Yue-Jiao Gong, Zhiguang Cao, and Jun Zhang. },
-  journal={ACM Transactions on Evolutionary Learning and Optimization},
-  year={2024},
-  volume={XX},
-  number={YY},
-  pages={ZZZ-ZZZ}
+@article{10.1145/3700886,
+author = {Zhang, Xian-Rong and Gong, Yue-Jiao and Cao, Zhiguang and Zhang, Jun},
+title = {Island-Based Evolutionary Computation with Diverse Surrogates and Adaptive Knowledge Transfer for High-Dimensional Data-Driven Optimization},
+year = {2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3700886},
+doi = {10.1145/3700886},
+abstract = {In recent years, there has been a growing interest in data-driven evolutionary algorithms (DDEAs) employing surrogate models to approximate the objective functions with limited data. However, current DDEAs are primarily designed for lower-dimensional problems and their performance drops significantly when applied to large-scale optimization problems (LSOPs). To address the challenge, this paper proposes an offline DDEA named DSKT-DDEA. DSKT-DDEA leverages multiple islands that utilize different data to establish diverse surrogate models, fostering diverse subpopulations and mitigating the risk of premature convergence. In the intra-island optimization phase, a semi-supervised learning method is devised to fine-tune the surrogates. It not only facilitates data argumentation, but also incorporates the distribution information gathered during the search process to align the surrogates with the evolving local landscapes. Then, in the inter-island knowledge transfer phase, the algorithm incorporates an adaptive strategy that periodically transfers individual information and evaluates the transfer effectiveness in the new environment, facilitating global optimization efficacy. Experimental results demonstrate that our algorithm is competitive with state-of-the-art DDEAs on problems with up to 1000 dimensions, while also exhibiting decent parallelism and scalability. Our DSKT-DDEA is open-source and accessible at: https://github.com/LabGong/DSKT-DDEA.},
+note = {Just Accepted},
+journal = {ACM Trans. Evol. Learn. Optim.},
+month = nov,
+keywords = {Data-driven evolutionary algorithm, large-scale optimization problems, diverse surrogate models, semi-supervised learning, adaptive knowledge transfer}
 }
 ```
 
